@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container flex">
+        <div class="left  ">
+            <div class="home rounded">
+                <img src="logo.svg" style="width:80px" class="invert">
+                <ul>
+                    <li class="flex items-center"><img src="home.svg" class=invert>Home</li>
+                    <li class="flex items-center"><img src="search.svg" class=invert>Search</li>
+                </ul>
+            </div>
+            <div class="library rounded">
+                <div class="libheading flex items-center">
+                    <img src="lib.svg" style="width:25px" class="invert">
+                    <h2>Your Library</h2>
+
+                </div>
+                <div class="footer">
+                    <div class=" legalities ">
+                        <div class="flex leg1">
+                            <a href="https://www.spotify.com/in-en/legal/" id="">Legal</a>
+                            <a href="https://www.spotify.com/in-en/safetyandprivacy/" id="">Safety Privacy Center</a>
+                            <a href="https://www.spotify.com/in-en/legal/privacy-policy/" id="">Privacy Policy</a>
+                            <a href="https://www.spotify.com/in-en/legal/cookies-policy/" id="">Cookies</a>
+                            <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" id="">About Ads</a>
+                            <a href="https://www.spotify.com/in-en/accessibility/" id="">Accessibility</a>
+                        </div>
+                        <div style="margin-bottom:5px">
+                            <a draggable="false" href="https://www.spotify.com/legal/cookies-policy/" target="_blank"
+                                rel="noopener">Cookies</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right rounded ">
+            <div class="nav flex">
+                <div class="lr">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#ffffff"
+                        fill="none">
+                        <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#ffffff"
+                        fill="none">
+                        <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="signlog">
+                    <button class="signup">Sign up</button>
+                    <button class="login">Log in</button>
+                </div>
+            </div>
+            <div class="playlists">
+                <h1>Spotify Playlists</h1>
+                <div class="cardholder flex">
+                    <div class="card">
+                        <div class="play">
+                            <i class="fa-solid fa-play invert" ></i>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f00000002204335eb7d241ef0dbf5c5ad" alt="">
+                        <h2>Viral Hits</h2>
+                        <p>Viral, trending and taking off.</p>
+                    </div>
+                    <div class="card">
+                        <div class="play">
+                            <i class="fa-solid fa-play invert" ></i>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f00000002fd4af4581daf8d52558ab410" alt="">
+                        <h2>Chillhop</h2>
+                        <p>Blissed out beats and head noddin...</p>
+                    </div>
+                    <div class="card">
+                        <div class="play">
+                            <i class="fa-solid fa-play invert" ></i>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f0000000242ede53dcaaa172b7bbca101" alt="">
+                        <h2>Soft pop hits</h2>
+                        <p>Warm familiar pop you know and love.</p>
+                    </div>
+                    
+                    
+                </div>
+                
+                
+            </div>
+            <div class="playbar flex justify-center">
+                <div class="pbuttons">
+                    <i class="fa-solid fa-backward-step invert"></i>
+                    <i class="fa-solid fa-play invert playi"></i>
+                    <i class="fa-solid fa-forward-step invert"></i>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
